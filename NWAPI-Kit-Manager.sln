@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NwPluginAPI", "..\NwPluginAPI\NwPluginAPI\NwPluginAPI.csproj", "{5079D346-050F-45DF-AF41-067C992CAAFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42465E30-C6EC-4A40-B572-205C16FA102E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KitManager", "KitManager\KitManager.csproj", "{E0F1B55A-971A-418D-B45A-CB2C702B6364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyzers", "Analyzers", "{3CA0C582-BA36-455A-A480-8DD78BDD24D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NwPluginAPI.Analyzers", "..\NWPluginAPI\Analyzers\NWPluginAPI.Analyzers\NwPluginAPI.Analyzers.csproj", "{4BE5D776-39A9-4532-9390-C59FB45E9571}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NwPluginAPI.Analyzers.Generator", "..\NWPluginAPI\Analyzers\NwPluginAPI.Analyzers.Generator\NwPluginAPI.Analyzers.Generator.csproj", "{9638A1ED-142B-4487-8DAA-A24E1F42E04C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5079D346-050F-45DF-AF41-067C992CAAFC}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{5079D346-050F-45DF-AF41-067C992CAAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F1B55A-971A-418D-B45A-CB2C702B6364}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F1B55A-971A-418D-B45A-CB2C702B6364}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{E0F1B55A-971A-418D-B45A-CB2C702B6364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F1B55A-971A-418D-B45A-CB2C702B6364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE5D776-39A9-4532-9390-C59FB45E9571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE5D776-39A9-4532-9390-C59FB45E9571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9638A1ED-142B-4487-8DAA-A24E1F42E04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9638A1ED-142B-4487-8DAA-A24E1F42E04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BE5D776-39A9-4532-9390-C59FB45E9571} = {3CA0C582-BA36-455A-A480-8DD78BDD24D0}
+		{9638A1ED-142B-4487-8DAA-A24E1F42E04C} = {3CA0C582-BA36-455A-A480-8DD78BDD24D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1737D319-028C-47BB-8B5F-7E1F5DEB9264}
+	EndGlobalSection
+EndGlobal
