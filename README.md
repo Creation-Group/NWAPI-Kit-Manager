@@ -1,5 +1,5 @@
 
-# Command Expansion Plugin
+# Kit Manager Plugin
 
 This plugin provide a kit manager for SCP-SL servers.
 
@@ -13,11 +13,11 @@ This plugin provide a kit manager for SCP-SL servers.
 
 2) Then integrate the **[NwPluginAPI](https://github.com/northwood-studios/NwPluginAPI)** folder
 
-3) Run the NWAPI-Command-Expansion.sln
+3) Run the NWAPI-Kit-Manager.sln
 
-4) Open any file in the CommandExpansion namespace
+4) Open any file in the Kit Manager namespace
 
-5) Generate CommandExpansion
+5) Generate Kit Manager
 
 -----
 
