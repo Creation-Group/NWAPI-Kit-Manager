@@ -2,6 +2,7 @@
 # Kit Manager Plugin
 
 This plugin provide a kit manager for SCP-SL servers.
+You can give a batch of items to a player in a single command.
 
 *[This solution is using the official server-side plugin system for SCP: Secret Laboratory game. NW-API](https://github.com/northwood-studios/NwPluginAPI)*
 
