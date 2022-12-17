@@ -1,4 +1,4 @@
-﻿namespace CommandExpansion
+﻿namespace KitManager
 {
 	public class Config
 	{

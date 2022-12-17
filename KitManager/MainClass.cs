@@ -1,4 +1,4 @@
-﻿namespace CommandExpansion
+﻿namespace KitManager
 {
 	using PluginAPI.Core;
 	using PluginAPI.Core.Attributes;
@@ -9,7 +9,7 @@
 		[PluginEntryPoint("KitManager", "1.0.0", "This plugin provide a kit manager for SCP-SL servers.", "Majorfox")]
 		void LoadPlugin()
 		{
-			Log.Info("Loaded KitManager...");
+			Log.Info("Loading KitManager...");
 			EventManager.RegisterEvents(this);
 			EventManager.RegisterEvents<EventHandlers>(this);
 		}

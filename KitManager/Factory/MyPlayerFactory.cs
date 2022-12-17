@@ -1,4 +1,4 @@
-﻿namespace CommandExpansion.Factory
+﻿namespace KitManager.Factory
 {
 	using PluginAPI.Core.Factories;
 	using PluginAPI.Core.Interfaces;

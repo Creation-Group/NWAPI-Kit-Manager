@@ -1,4 +1,4 @@
-﻿namespace CommandExpansion.Commands
+﻿namespace KitManager.Commands
 {
 	using CommandSystem;
 	using System;

@@ -1,4 +1,4 @@
-﻿namespace CommandExpansion.Commands
+﻿namespace KitManager.Commands
 {
 	using CommandSystem;
 	using InventorySystem;
@@ -24,7 +24,7 @@
 
 		public string Description { get; } = "Give a predefined inventory to a player";
 
-		public string[] Usage { get; } = new string[2] { "%player%", "%PredefinedInventoryID%" };
+		public string[] Usage { get; } = new string[2] { "%player%", "InventoryID" };
 
 		public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
 		{
@@ -61,11 +61,11 @@
 				ItemType[] array = ParseItems(itemslist).ToArray();
 				if (array.Length == 0)
 				{
-					response = "You didn't input a valid inventoryID (example: gpi <playerID> testInventory).";
+					response = "You didn't input a valid inventoryID (example: kit <playerID> testInventory).";
 					return false;
 				}
 
-				Log.Info($"Giving the {inventoryID[0]} inventory to ({sender})");
+				Log.Info($"Giving the {inventoryID[0]} inventory to ({sender.LogName})");
 				foreach (ReferenceHub item in list)
 				{
 					try
