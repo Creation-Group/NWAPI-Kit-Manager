@@ -29,7 +29,7 @@ You can give a batch of items to a player in a single command.
 *Aliases :* gpi, kit
 
 *Description :* Give a predefined inventory to a player. It works like a kit.
-                A folder contains a Inventory.txt 
+                A folder contains a Inventory.txt (It is actually stored in Data/Inventories.txt next to the server executable)
                 Each line is an inventory "**<name>**:**<itemsID>.<...>**
                 Up to 8 items (maxInventory). A '.' is used to separate each item.
 
