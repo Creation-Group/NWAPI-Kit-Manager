@@ -11,6 +11,6 @@
 
 		public string TestParam { get; set; }
 
-		public string Test => "TestValue";
+		//public string Test => "TestValue";
 	}
 }
